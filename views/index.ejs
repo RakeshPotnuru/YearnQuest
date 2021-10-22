@@ -1,0 +1,236 @@
+<%- include("./partials/header") -%>
+
+<section id="carousel-section">
+  <div
+    id="carouselExampleCaptions"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="/images/kids.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="/images/poverty.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="/images/poverty2.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- Cards  -->
+<section class="card-section m-4">
+  <div class="cotainer">
+    <div class="row">
+      <img
+        class="card-img-top"
+        id="img-banner"
+        src="/images/feedBanner.jpg"
+        alt="Card image cap"
+      />
+
+      <!-- Card - 1 -->
+      <div class="col-sm">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/weekly?poverty"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card - 1 -->
+
+      <!-- Card - 2 -->
+      <div class="col-sm">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/weekly?poverty"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card - 2 -->
+
+      <!-- Card - 3 -->
+      <div class="col-sm">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="https://source.unsplash.com/weekly?poverty"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title text-center">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card - 3 -->
+    </div>
+  </div>
+</section>
+
+<!-- Be A Part Of Our Community -->
+<section class="newsletter">
+  <div class="border mx-2 p-4">
+    <h3 class="text-center">Become a Part of Our Community!</h3>
+    <div class="row">
+      <!-- Column 1   -->
+      <div class="col-sm">
+        <form class="bg-warning text-black form-section">
+          <div class="row form-group">
+            <label for=""> Your Name</label>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="">Contact</label>
+            <input
+              type="number"
+              class="form-control"
+              id="contactNumber"
+              aria-describedby="contactHelp"
+              placeholder="Enter contact number"
+            />
+            <small id="Help" class="form-text text-muted"
+              >We'll never share your email and contact number with anyone
+              else.</small
+            >
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <!-- Column 2   -->
+      <div class="col-sm">
+        <div class="card text-white bg-success mb-3">
+          <div class="card-header text-center">Header</div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Success card title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              nemo adipisci, nam, voluptatem sequi perspiciatis natus non
+              doloremque eligendi omnis autem eius fugit, repellat tempore
+              earum. Incidunt quas quae, earum tempora consectetur iusto quis
+              blanditiis, praesentium, nisi sequi temporibus commodi velit
+              dolorum voluptatem labore. Earum sint et voluptatum voluptas ipsa
+              animi corporis tempore quis unde itaque! Saepe at iure tempora
+              unde fugit. Dolor odit vitae, facere asperiores enim cumque
+              officia voluptas inventore, maxime quisquam perspiciatis
+              necessitatibus non repudiandae aut iste. Molestias, cumque
+              quisquam. Laboriosam optio velit repellendus rerum quia quaerat
+              reiciendis inventore provident consequatur, praesentium animi hic
+              sequi odio dolorum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include("./partials/footer") -%>
