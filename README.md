@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RakeshPotnuru/YearnQuest">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/70439799/138451368-e3f096fa-68a3-43d2-b090-75e62c407ceb.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Yearn Quest</h3>
@@ -181,9 +181,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Rakesh - [@RakeshPotnuru](https://github.com/RakeshPotnuru)
-Rwitesh Bera - [@rwiteshbera](https://github.com/rwiteshbera)
-Aqsa Shadab Khan - [@aqsak1](https://github.com/aqsak1)
+- Rakesh - [@RakeshPotnuru](https://github.com/RakeshPotnuru)
+- Rwitesh Bera - [@rwiteshbera](https://github.com/rwiteshbera)
+- Aqsa Shadab Khan - [@aqsak1](https://github.com/aqsak1)
 
 Project Link: [https://github.com/RakeshPotnuru/YearnQuest](https://github.com/RakeshPotnuru/YearnQuest)
 
@@ -191,13 +191,13 @@ Project Link: [https://github.com/RakeshPotnuru/YearnQuest](https://github.com/R
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 - []()
 - []()
 - []()
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -214,4 +214,4 @@ Project Link: [https://github.com/RakeshPotnuru/YearnQuest](https://github.com/R
 [license-url]: https://github.com/RakeshPotnuru/YearnQuest/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: public\images\
