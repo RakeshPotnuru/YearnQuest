@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/RakeshPotnuru/YearnQuest">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -34,14 +34,14 @@
   <p align="center">
     Let's end the Hunger ✊
     <br />
-    <!-- <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a> -->
+    <!-- <a href="https://github.com/RakeshPotnuru/YearnQuest"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <a href="#">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Request Feature</a>
   </p>
 </div>
 
@@ -108,7 +108,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/RakeshPotnuru/YearnQuest.git
    ```
 2. Install NPM packages
    ```sh
@@ -148,7 +148,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 - [] Feature 3
   - [] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues). -->
+See the [open issues](https://github.com/RakeshPotnuru/YearnQuest/issues) for a full list of proposed features (and known issues). -->
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
@@ -185,7 +185,7 @@ Rakesh - [@RakeshPotnuru](https://github.com/RakeshPotnuru)
 Rwitesh Bera - [@rwiteshbera](https://github.com/rwiteshbera)
 Aqsa Shadab Khan - [@aqsak1](https://github.com/aqsak1)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/RakeshPotnuru/YearnQuest](https://github.com/RakeshPotnuru/YearnQuest)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -202,16 +202,16 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/RakeshPotnuru/YearnQuest.svg?style=for-the-badge
+[contributors-url]: https://github.com/RakeshPotnuru/YearnQuest/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RakeshPotnuru/YearnQuest.svg?style=for-the-badge
+[forks-url]: https://github.com/RakeshPotnuru/YearnQuest/network/members
+[stars-shield]: https://img.shields.io/github/stars/RakeshPotnuru/YearnQuest.svg?style=for-the-badge
+[stars-url]: https://github.com/RakeshPotnuru/YearnQuest/stargazers
+[issues-shield]: https://img.shields.io/github/issues/RakeshPotnuru/YearnQuest.svg?style=for-the-badge
+[issues-url]: https://github.com/RakeshPotnuru/YearnQuest/issues
+[license-shield]: https://img.shields.io/github/license/RakeshPotnuru/YearnQuest.svg?style=for-the-badge
+[license-url]: https://github.com/RakeshPotnuru/YearnQuest/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
