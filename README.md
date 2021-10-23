@@ -100,29 +100,49 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 - npm
+
   ```sh
   npm install npm@latest -g
   ```
 
-### Installation
+- You need [Sawo](https://sawolabs.com) and Twilio [SendGrid](https://sendgrid.com) API keys for this project.
+
+### Installation and Setup
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/RakeshPotnuru/YearnQuest.git
    ```
+
 2. Install NPM packages
+
    ```sh
    npm install
    ```
+
 3. Create `nodemon.json` file in the `/root` directory
+
    ```
    {
       "env": {
         "DB_URL": "mongodb://localhost:27017/databaseName"
+        "SENDGRID_API_KEY" : "Sendgrid API key"
+        "SENDER_EMAIL": "Sender email"
        }
     }
    ```
+
+4. Create a `config.js` file at `public/js/` and add Sawo api key
+
+  ```
+  const keys = {
+    SAWO_API_KEY: "84b47d5c-830f-4679-8147-51dc5cc41ebf",
+  };
+  ```
+
 4. To start the server
+
    ```
    npm run dev
    ```

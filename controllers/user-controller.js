@@ -1,5 +1,6 @@
-const mongoose = require("mongoose");
 const User = require("../models/user");
+const sgMail = require("@sendgrid/mail");
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const login = (req, res, next) => {
   res.render("login");
@@ -11,9 +12,6 @@ const login = (req, res, next) => {
 //     "identifier":"rakeshtesting444@gmail.com",
 //     "identifier_type":"email",
 //     "verification_token":"k77DG9sC7jfdON8hctTd23RqixMeqDMx1nsi",
-//     "customFieldInputValues":{
-//         "Username":"Rakesh Testing"
-//     }
 // }
 
 const getData = async (req, res, next) => {
@@ -57,5 +55,29 @@ const getData = async (req, res, next) => {
   res.status(200);
 };
 
+const sendMail = async (req, res, next) => {
+  const { fName, lName, email, contact } = req.body;
+
+  const msg = {
+    to: email,
+    from: process.env.SENDER_EMAIL, // Use the email address or domain you verified on Single sender identity
+    subject: "You are in!",
+    html: `<div><h2>Thanks ${fName} ${lName} for your interest in joining our community</h2><p>Together we can end hunger.</div>`,
+  };
+
+  try {
+    await sgMail.send(msg);
+  } catch (error) {
+    console.error(error);
+
+    if (error.response) {
+      console.error(error.response.body);
+    }
+  }
+
+  res.redirect("/");
+};
+
 exports.login = login;
 exports.getData = getData;
+exports.sendMail = sendMail;
