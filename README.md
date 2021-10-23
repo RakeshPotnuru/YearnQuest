@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/RakeshPotnuru/YearnQuest">
-    <img src="https://user-images.githubusercontent.com/70439799/138451368-e3f096fa-68a3-43d2-b090-75e62c407ceb.png" alt="Logo" width="80" height="80">
+    <img src="public/images/title.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Yearn Quest</h3>
