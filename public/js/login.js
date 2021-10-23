@@ -19,7 +19,7 @@ var config = {
   // can be one of 'email' or 'phone_number_sms'
   identifierType: "email",
   // Add the API key copied from 2nd step
-  apiKey: "eb8bd9a7-b821-4a1a-94fb-21310a7d5be4",
+  apiKey: "",
   // Add a callback here to handle the payload sent by sdk
   onSuccess: (payload) => {
     // Storing the payload in sessionStorage
