@@ -16,3 +16,15 @@ const handleDonation = async (event) => {
 
   return false;
 };
+
+const handleLogin = () => {
+  if (payload) {
+    window.location.assign("/");
+  }
+  window.location.assign("/login");
+};
+
+const handleLogout = () => {
+  sessionStorage.removeItem("payload");
+  window.location.assign("/");
+};

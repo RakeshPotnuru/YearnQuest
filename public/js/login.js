@@ -10,7 +10,7 @@ if (payload) {
     body: JSON.stringify({ payload: payload }),
     headers: { "Content-Type": "application/json" },
   });
-  // alert(payload);
+
   window.location.href = "/";
 }
 var config = {
@@ -29,7 +29,7 @@ var config = {
       body: JSON.stringify({ payload: payload }),
       headers: { "Content-Type": "application/json" },
     });
-    // Redirecting to "/success"
+    // Redirecting to "/"
     window.location.href = "/";
   },
 };

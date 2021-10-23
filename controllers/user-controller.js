@@ -6,14 +6,6 @@ const login = (req, res, next) => {
   res.render("login");
 };
 
-// payload: {
-//     "user_id":"6647627a-3ffb-4da2-9e7e-eb0e07dc6848",
-//     "created_on":"2021-09-24T10:11:48.081000Z",
-//     "identifier":"rakeshtesting444@gmail.com",
-//     "identifier_type":"email",
-//     "verification_token":"k77DG9sC7jfdON8hctTd23RqixMeqDMx1nsi",
-// }
-
 const getData = async (req, res, next) => {
   const payload = req.body.payload;
 

@@ -41,8 +41,12 @@ const donate = async (req, res, next) => {
     <h2>We received your donation of amount ₹${amount}</h2>
     <br>
     <img align="center" border="0" src="https://i.ibb.co/VHxj3sK/image-5.jpg" alt="Breaking Chain" title="Breaking Chain" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 600px;" width="600"/>
+    <br>
     <p>World needs more people like you.</p>
     <p>Together we can end Hunger✊</p>
+    <br>
+    <br>
+    <footer><p>Yours truly,</p><br><p>YearnQuest</p></footer>
     </div>`,
   };
 
