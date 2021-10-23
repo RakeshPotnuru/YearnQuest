@@ -34,24 +34,23 @@
   border: 2px solid black;
 }
 
-#donate {
-  z-index: 10;
-  position: absolute;
-  right: 8rem;
-  top: 1rem;
-  font-weight: 800;
+
+#logout{
+  display: none;
 }
 
-#login {
-  z-index: 10;
-  position: absolute;
-  right: 2rem;
-  top: 1rem;
-  font-weight: 800;
+#username{
+  padding-top: 0.5rem;
+  width: 200px;
+  white-space: nowrap;
+  /* margin-left:4rem; */
+  margin-right: 10rem;
 }
 
-#logout {
+#media-username{
+  display: none;
 }
+
 
 #img-banner {
   /* height: 30vh; */
@@ -160,8 +159,39 @@ footer {
   padding: 0.8rem;
 }
 
+
 @media only screen and (min-width: 992px) {
   #home {
     margin-left: 10rem;
+  }
+
+  #login, #logout{
+    margin-right: 1rem;
+    z-index: 10;
+    position: absolute;
+    right:2rem;
+    top: 1rem;
+    font-weight: 800;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  #username{
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1342px) {
+  #collapseNavbar div a{
+    width: 7rem;
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+  #username{
+    display: none;
+  }
+  #media-username{
+    display: block;
   }
 }
