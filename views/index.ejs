@@ -1,32 +1,14 @@
 <%- include("./partials/header") -%>
 
 <section id="carousel-section">
-  <div
-    id="carouselExampleCaptions"
-    class="carousel slide"
-    data-bs-ride="carousel"
-  >
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
@@ -51,21 +33,11 @@
         </div>
       </div>
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="prev"
-    >
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleCaptions"
-      data-bs-slide="next"
-    >
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -76,21 +48,12 @@
 <section class="card-section m-4">
   <div class="cotainer">
     <div class="row">
-      <img
-        class="card-img-top"
-        id="img-banner"
-        src="/images/feedBanner.jpg"
-        alt="Card image cap"
-      />
+      <img class="card-img-top" id="img-banner" src="/images/feedBanner.jpg" alt="Card image cap" />
 
       <!-- Card - 1 -->
       <div class="col-sm">
         <div class="card">
-          <img
-            class="card-img-top"
-            src="https://source.unsplash.com/weekly?poverty"
-            alt="Card image cap"
-          />
+          <img class="card-img-top" src="https://source.unsplash.com/weekly?poverty" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text">
@@ -109,11 +72,7 @@
       <!-- Card - 2 -->
       <div class="col-sm">
         <div class="card">
-          <img
-            class="card-img-top"
-            src="https://source.unsplash.com/weekly?poverty"
-            alt="Card image cap"
-          />
+          <img class="card-img-top" src="https://source.unsplash.com/weekly?poverty" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text">
@@ -132,11 +91,7 @@
       <!-- Card - 3 -->
       <div class="col-sm">
         <div class="card">
-          <img
-            class="card-img-top"
-            src="https://source.unsplash.com/weekly?poverty"
-            alt="Card image cap"
-          />
+          <img class="card-img-top" src="https://source.unsplash.com/weekly?poverty" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title text-center">Card title</h5>
             <p class="card-text">
@@ -162,59 +117,27 @@
     <div class="row">
       <!-- Column 1   -->
       <div class="col-sm">
-        <form
-          action="/community-form"
-          method="POST"
-          class="bg-warning text-black form-section"
-        >
+        <form action="/community-form" method="POST" class="bg-warning text-black form-section">
           <div class="row form-group">
             <label for=""> Your Name</label>
             <div class="col">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="First name"
-                name="fName"
-                required
-              />
+              <input type="text" class="form-control" placeholder="First name" name="fName" required />
             </div>
             <div class="col">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Last name"
-                name="lName"
-                required
-              />
+              <input type="text" class="form-control" placeholder="Last name" name="lName" required />
             </div>
           </div>
           <div class="form-group">
             <label for="">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-              name="email"
-              required
-            />
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email" name="email" required />
           </div>
           <div class="form-group">
             <label for="">Contact</label>
-            <input
-              type="number"
-              class="form-control"
-              id="contactNumber"
-              aria-describedby="contactHelp"
-              placeholder="Enter contact number"
-              name="contact"
-              required
-            />
-            <small id="Help" class="form-text text-muted"
-              >We'll never share your email and contact number with anyone
-              else.</small
-            >
+            <input type="number" class="form-control" id="contactNumber" aria-describedby="contactHelp"
+              placeholder="Enter contact number" name="contact" required />
+            <small id="Help" class="form-text text-muted">We'll never share your email and contact number with anyone
+              else.</small>
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
