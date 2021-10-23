@@ -1,0 +1,35 @@
+// Fetching payload from sessionStorage
+const payload = sessionStorage.getItem("payload");
+if (payload) {
+  // If the payload is available, that means the user has logged in already.
+  // So redirecting back to "/login"
+  fetch("/login", {
+    method: "POST",
+    body: JSON.stringify({ payload: payload }),
+    headers: { "Content-Type": "application/json" },
+  });
+  // alert(payload);
+  window.location.href = "/";
+}
+var config = {
+  // should be same as the id of the container created on 3rd step
+  containerID: "sawo-container",
+  // can be one of 'email' or 'phone_number_sms'
+  identifierType: "email",
+  // Add the API key copied from 2nd step
+  apiKey: "84b47d5c-830f-4679-8147-51dc5cc41ebf",
+  // Add a callback here to handle the payload sent by sdk
+  onSuccess: (payload) => {
+    // Storing the payload in sessionStorage
+    sessionStorage.setItem("payload", JSON.stringify(payload));
+    fetch("/login", {
+      method: "POST",
+      body: JSON.stringify({ payload: payload }),
+      headers: { "Content-Type": "application/json" },
+    });
+    // Redirecting to "/success"
+    window.location.href = "/";
+  },
+};
+var sawo = new Sawo(config);
+sawo.showForm();
