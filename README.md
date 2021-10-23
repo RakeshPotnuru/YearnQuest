@@ -137,7 +137,7 @@ To get a local copy up and running follow these simple example steps.
 
   ```
   const keys = {
-    SAWO_API_KEY: "84b47d5c-830f-4679-8147-51dc5cc41ebf",
+    SAWO_API_KEY: "Sawo api key",
   };
   ```
 
