@@ -37,7 +37,7 @@
     <!-- <a href="https://github.com/RakeshPotnuru/YearnQuest"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://yearn-quest.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Report Bug</a>
     ·
@@ -86,6 +86,7 @@
 - [Ejs](https://ejs.co)
 - [NodeJs](https://nodejs.org)
 - [Sawo API](https://sawolabs.com)
+- [Twilio sendgrid](https://sendgrid.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
