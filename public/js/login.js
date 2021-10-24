@@ -19,7 +19,7 @@ var config = {
   // can be one of 'email' or 'phone_number_sms'
   identifierType: "email",
   // Add the API key copied from 2nd step
-  apiKey: "",
+  apiKey: SAWO_API_KEY,
   // Add a callback here to handle the payload sent by sdk
   onSuccess: (payload) => {
     // Storing the payload in sessionStorage

@@ -11,6 +11,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.brand {
+  margin-left: 2rem;
+}
+
 #title {
   color: purple;
   font-size: 1.8rem;
@@ -34,12 +38,7 @@
   border: 2px solid black;
 }
 
-
-#logout{
-  display: none;
-}
-
-#username{
+#username {
   padding-top: 0.5rem;
   width: 200px;
   white-space: nowrap;
@@ -47,10 +46,27 @@
   margin-right: 10rem;
 }
 
-#media-username{
+#media-username {
   display: none;
 }
 
+#login {
+  margin-right: 1rem;
+  z-index: 10;
+  position: absolute;
+  right: 10rem;
+  top: 1rem;
+  font-weight: 800;
+}
+
+#logout {
+  margin-right: 1rem;
+  z-index: 10;
+  position: absolute;
+  right: 4rem;
+  top: 1rem;
+  font-weight: 800;
+}
 
 #img-banner {
   /* height: 30vh; */
@@ -87,6 +103,7 @@ footer {
 .footer-text {
   padding: 4rem;
 }
+
 .social-icons {
   text-align: center;
   color: white;
@@ -159,39 +176,41 @@ footer {
   padding: 0.8rem;
 }
 
-
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   #home {
     margin-left: 10rem;
   }
 
-  #login, #logout{
-    margin-right: 1rem;
-    z-index: 10;
+  #login {
     position: absolute;
-    right:2rem;
-    top: 1rem;
-    font-weight: 800;
+    right: 2rem;
+    top: 5rem;
+  }
+  #logout {
+    position: absolute;
+    right: 2rem;
+    top: 8rem;
   }
 }
 
-
 @media only screen and (max-width: 991px) {
-  #username{
+  #username {
     margin-left: 1rem;
   }
 }
 
 @media (min-width: 0px) and (max-width: 1342px) {
-  #collapseNavbar div a{
+  #collapseNavbar div a {
     width: 7rem;
     font-size: 1rem;
     margin-left: 0rem;
   }
-  #username{
+
+  #username {
     display: none;
   }
-  #media-username{
+
+  #media-username {
     display: block;
   }
 }
