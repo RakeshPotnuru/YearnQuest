@@ -1,4 +1,4 @@
-const SAWO_API_KEY = keys.SAWO_API_KEY;
+const SAWO_API_KEY = "84b47d5c-830f-4679-8147-51dc5cc41ebf";
 
 // Fetching payload from sessionStorage
 const payload = sessionStorage.getItem("payload");
