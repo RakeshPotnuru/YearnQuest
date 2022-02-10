@@ -1,5 +1,7 @@
 <div id="top"></div>
 
+Hackathon Submission - [here](https://devpost.com/software/yearnquest)
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -18,8 +20,8 @@
     <a href="https://yearn-quest.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Request Feature</a>
+<!--     ·
+    <a href="https://github.com/RakeshPotnuru/YearnQuest/issues">Request Feature</a> -->
   </p>
 </div>
 
